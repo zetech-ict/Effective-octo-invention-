@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "577406709912",
+    "project_id": "trendhub-5ef77",
+    "storage_bucket": "trendhub-5ef77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577406709912:android:92c6cb8c216908e140a0ed",
+        "android_client_info": {
+          "package_name": "com.shani.trendhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577406709912-01heffh45l4di039dksr2qbddjlisl2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeTLWn1lyU9ZIOw-oaotnvXjrxOhDS1mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577406709912-01heffh45l4di039dksr2qbddjlisl2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577406709912:android:2474ff5ffca61d2340a0ed",
+        "android_client_info": {
+          "package_name": "com.shanidev.zesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577406709912-01heffh45l4di039dksr2qbddjlisl2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeTLWn1lyU9ZIOw-oaotnvXjrxOhDS1mI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577406709912-01heffh45l4di039dksr2qbddjlisl2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

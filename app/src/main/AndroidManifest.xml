@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shanidev.zesapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Trend-hub"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zesapp">
+        <activity
+            android:name=".AdopterChat"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".RowchatList"
+            android:exported="false" />
+        <activity
+            android:name=".RowchatRight"
+            android:exported="false" />
+        <activity
+            android:name=".RowchatLeft"
+            android:exported="false" />
+        <activity
+            android:name=".users"
+            android:exported="false" />
+        <activity
+            android:name="com.shanidev.blissDB.DashBoard"
+            android:exported="true"
+            android:theme="@style/Theme.ZesApp.NoActionbar" />
+        <activity
+            android:name=".Log_In"
+            android:exported="false"
+            android:theme="@style/Theme.ZesApp.NoActionbar" />
+        <activity
+            android:name=".Sign_Up"
+            android:exported="false"
+            android:theme="@style/Theme.ZesApp.NoActionbar" />
+        <activity
+            android:name=".OnBoarding"
+            android:exported="false"
+            android:theme="@style/Theme.ZesApp.NoActionbar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ZesApp.NoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

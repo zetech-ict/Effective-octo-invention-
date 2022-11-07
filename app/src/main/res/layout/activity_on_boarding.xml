@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".OnBoarding">
+
+   <TextView
+       android:id="@+id/skip_onboard"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/skip"
+       android:textStyle="bold"
+       android:layout_marginEnd="10dp"
+       android:textColor="#FFA781"
+       android:fontFamily="sans-serif-thin"
+       android:textSize="20sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <androidx.viewpager2.widget.ViewPager2
+       android:id="@+id/onboard_viewpager"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       app:layout_constraintBottom_toTopOf="@+id/materialButton"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/skip_onboard" />
+
+   <com.google.android.material.button.MaterialButton
+       android:id="@+id/materialButton"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginBottom="4dp"
+       android:text="@string/get_started"
+       app:cornerRadius="20dp"
+       android:textColor="#FFA781"
+       android:backgroundTint="#49001D"
+       android:visibility="gone"
+       android:layout_margin="20dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

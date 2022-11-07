@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Bliss</string>
+    <string name="todo">TODO</string>
+    <string name="SignUp">Create your account:</string>
+    <string name="SignUpGoogle">Google Sign Up</string>
+    <string name="Forgot">Forgot Password?</string>
+    <string name="Or">---OR---</string>
+
+
+    //headings
+    <string name="heading1">Welcome!</string>
+    <string name="heading2">Elegance!</string>
+    <string name="heading3">Interact!</string>
+
+    //descriptions
+    <string name="description1">Hey there! Welcome to Bliss where you can share and interact with your peers.</string>
+    <string name="description2">We help you expose your passion in fashion and design. Design your sassy outfits and let the world know.</string>
+    <string name="description3">Share your art with your followers and also get to see other artwork from the ones you are following.</string>
+    <string name="mailError">Field needed</string>
+    <string name="profileError">Select Image!</string>
+    <string name="pass1Error"><![CDATA[Password needed not < 8 characters]]></string>
+    <string name="pass2Error">Password mismatch</string>
+
+    <string name="hello_blank_fragment">Home fragment!</string>
+    <string name="creating_account">Authenticating…</string>
+    <string name="your_email_or_password_is_incorrect_please_check_again">Your email or password is incorrect! Please check again.</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">LOG IN</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="get_started">Get Started</string>
+    <string name="skip">Skip</string>
+    <string name="set_things_up">Set Things Up:</string>
+    <string name="select_image">Select image</string>
+    <string name="username">Username:</string>
+    <string name="profession">Profession:</string>
+    <string name="where_do_you_work_school">Where do you work/school:</string>
+    <string name="description">Description:</string>
+    <string name="done">DONE</string>
+    <string name="tell_us_something_about_you">Tell us something about you:</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="already_have_an_account_log_in_here">Already have an account?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="userNameError">Username needed at least 6 char</string>
+    <string name="tab_search_user" />
+    <string name="tab_search_tag" />
+
+</resources>
